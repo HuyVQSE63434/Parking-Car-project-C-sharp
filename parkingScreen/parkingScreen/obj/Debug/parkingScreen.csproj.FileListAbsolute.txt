@@ -1,0 +1,63 @@
+D:\project data\projectFinalC#\parkingScreen\parkingScreen\bin\Debug\parkingScreen.exe.config
+D:\project data\projectFinalC#\parkingScreen\parkingScreen\bin\Debug\parkingScreen.exe
+D:\project data\projectFinalC#\parkingScreen\parkingScreen\bin\Debug\parkingScreen.pdb
+D:\project data\projectFinalC#\parkingScreen\parkingScreen\bin\Debug\MetroFramework.Design.dll
+D:\project data\projectFinalC#\parkingScreen\parkingScreen\bin\Debug\MetroFramework.dll
+D:\project data\projectFinalC#\parkingScreen\parkingScreen\bin\Debug\MetroFramework.Fonts.dll
+D:\project data\projectFinalC#\parkingScreen\parkingScreen\obj\Debug\parkingScreen.csprojAssemblyReference.cache
+D:\project data\projectFinalC#\parkingScreen\parkingScreen\obj\Debug\parkingScreen.Form1.resources
+D:\project data\projectFinalC#\parkingScreen\parkingScreen\obj\Debug\parkingScreen.Properties.Resources.resources
+D:\project data\projectFinalC#\parkingScreen\parkingScreen\obj\Debug\parkingScreen.csproj.GenerateResource.cache
+D:\project data\projectFinalC#\parkingScreen\parkingScreen\obj\Debug\parkingScreen.csproj.CoreCompileInputs.cache
+D:\project data\projectFinalC#\parkingScreen\parkingScreen\obj\Debug\parkingScreen.csproj.CopyComplete
+D:\project data\projectFinalC#\parkingScreen\parkingScreen\obj\Debug\parkingScreen.exe
+D:\project data\projectFinalC#\parkingScreen\parkingScreen\obj\Debug\parkingScreen.pdb
+D:\projectData\projectFinalC#\parkingScreen\parkingScreen\obj\Debug\parkingScreen.csprojAssemblyReference.cache
+D:\projectData\projectFinalC#\parkingScreen\parkingScreen\obj\Debug\webcamCSharp.shotScreen.resources
+D:\projectData\projectFinalC#\parkingScreen\parkingScreen\obj\Debug\parkingScreen.MainScreen.resources
+D:\projectData\projectFinalC#\parkingScreen\parkingScreen\obj\Debug\parkingScreen.csproj.GenerateResource.cache
+D:\projectData\projectFinalC#\parkingScreen\parkingScreen\obj\Debug\parkingScreen.exe
+D:\projectData\projectFinalC#\parkingScreen\parkingScreen\obj\Debug\parkingScreen.pdb
+D:\projectData\projectFinalC#\parkingScreen\parkingScreen\bin\Debug\parkingScreen.exe.config
+D:\projectData\projectFinalC#\parkingScreen\parkingScreen\bin\Debug\parkingScreen.exe
+D:\projectData\projectFinalC#\parkingScreen\parkingScreen\bin\Debug\parkingScreen.pdb
+D:\projectData\projectFinalC#\parkingScreen\parkingScreen\bin\Debug\AForge.Video.DirectShow.dll
+D:\projectData\projectFinalC#\parkingScreen\parkingScreen\bin\Debug\AForge.Video.dll
+D:\projectData\projectFinalC#\parkingScreen\parkingScreen\bin\Debug\Bunifu_UI_v1.5.3.dll
+D:\projectData\projectFinalC#\parkingScreen\parkingScreen\bin\Debug\MetroFramework.Design.dll
+D:\projectData\projectFinalC#\parkingScreen\parkingScreen\bin\Debug\MetroFramework.dll
+D:\projectData\projectFinalC#\parkingScreen\parkingScreen\bin\Debug\MetroFramework.Fonts.dll
+D:\projectData\projectFinalC#\parkingScreen\parkingScreen\bin\Debug\AForge.dll
+D:\projectData\projectFinalC#\parkingScreen\parkingScreen\bin\Debug\AForge.Video.xml
+D:\projectData\projectFinalC#\parkingScreen\parkingScreen\bin\Debug\AForge.Video.DirectShow.xml
+D:\projectData\projectFinalC#\parkingScreen\parkingScreen\bin\Debug\AForge.xml
+D:\projectData\projectFinalC#\parkingScreen\parkingScreen\obj\Debug\parkingScreen.Properties.Resources.resources
+D:\projectData\projectFinalC#\parkingScreen\parkingScreen\obj\Debug\parkingScreen.csproj.CoreCompileInputs.cache
+D:\projectData\projectFinalC#\parkingScreen\parkingScreen\obj\Debug\parkingScreen.csproj.CopyComplete
+D:\projectData\projectFinalCSharp\parkingScreen\parkingScreen\bin\Debug\parkingScreen.exe.config
+D:\projectData\projectFinalCSharp\parkingScreen\parkingScreen\bin\Debug\parkingScreen.exe
+D:\projectData\projectFinalCSharp\parkingScreen\parkingScreen\bin\Debug\parkingScreen.pdb
+D:\projectData\projectFinalCSharp\parkingScreen\parkingScreen\bin\Debug\AForge.Video.DirectShow.dll
+D:\projectData\projectFinalCSharp\parkingScreen\parkingScreen\bin\Debug\AForge.Video.dll
+D:\projectData\projectFinalCSharp\parkingScreen\parkingScreen\bin\Debug\Animator.dll
+D:\projectData\projectFinalCSharp\parkingScreen\parkingScreen\bin\Debug\Bunifu_UI_v1.5.3.dll
+D:\projectData\projectFinalCSharp\parkingScreen\parkingScreen\bin\Debug\MetroFramework.Design.dll
+D:\projectData\projectFinalCSharp\parkingScreen\parkingScreen\bin\Debug\MetroFramework.dll
+D:\projectData\projectFinalCSharp\parkingScreen\parkingScreen\bin\Debug\MetroFramework.Fonts.dll
+D:\projectData\projectFinalCSharp\parkingScreen\parkingScreen\bin\Debug\Newtonsoft.Json.dll
+D:\projectData\projectFinalCSharp\parkingScreen\parkingScreen\bin\Debug\RestSharp.dll
+D:\projectData\projectFinalCSharp\parkingScreen\parkingScreen\bin\Debug\AForge.dll
+D:\projectData\projectFinalCSharp\parkingScreen\parkingScreen\bin\Debug\AForge.Video.xml
+D:\projectData\projectFinalCSharp\parkingScreen\parkingScreen\bin\Debug\AForge.Video.DirectShow.xml
+D:\projectData\projectFinalCSharp\parkingScreen\parkingScreen\bin\Debug\Newtonsoft.Json.xml
+D:\projectData\projectFinalCSharp\parkingScreen\parkingScreen\bin\Debug\RestSharp.xml
+D:\projectData\projectFinalCSharp\parkingScreen\parkingScreen\bin\Debug\AForge.xml
+D:\projectData\projectFinalCSharp\parkingScreen\parkingScreen\obj\Debug\webcamCSharp.shotScreen.resources
+D:\projectData\projectFinalCSharp\parkingScreen\parkingScreen\obj\Debug\parkingScreen.MainScreen.resources
+D:\projectData\projectFinalCSharp\parkingScreen\parkingScreen\obj\Debug\parkingScreen.Properties.Resources.resources
+D:\projectData\projectFinalCSharp\parkingScreen\parkingScreen\obj\Debug\parkingScreen.welcomeForm.resources
+D:\projectData\projectFinalCSharp\parkingScreen\parkingScreen\obj\Debug\parkingScreen.csproj.GenerateResource.cache
+D:\projectData\projectFinalCSharp\parkingScreen\parkingScreen\obj\Debug\parkingScreen.csproj.CoreCompileInputs.cache
+D:\projectData\projectFinalCSharp\parkingScreen\parkingScreen\obj\Debug\parkingScreen.csproj.CopyComplete
+D:\projectData\projectFinalCSharp\parkingScreen\parkingScreen\obj\Debug\parkingScreen.exe
+D:\projectData\projectFinalCSharp\parkingScreen\parkingScreen\obj\Debug\parkingScreen.pdb

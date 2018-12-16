@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="smartParking" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.;Initial Catalog=smartParking;User ID=sa" SettingsObjectName="parkingScreen.Properties.Settings" SettingsPropertyName="smartParkingConnectionString5" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tblAccount" Member="tblAccounts">
+    <Type Name="tblAccount">
+      <Column Name="userID" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="password" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="roleName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="status" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="tblUser_tblAccount" Member="tblUser" ThisKey="userID" OtherKey="userID" Type="tblUser" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblCarPark" Member="tblCarParks">
+    <Type Name="tblCarPark">
+      <Column Name="position" Type="System.String" DbType="NVarChar(255) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="carID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="note" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="timeIn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="tblCar_tblCarPark" Member="tblCar" ThisKey="carID" OtherKey="carID" Type="tblCar" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblCars" Member="tblCars">
+    <Type Name="tblCar">
+      <Column Name="carID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="carName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="licensePlate" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="userID" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="status" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="nearestPhoto" Type="System.Data.Linq.Binary" DbType="VarBinary(MAX)" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="tblCar_tblCarPark" Member="tblCarParks" ThisKey="carID" OtherKey="carID" Type="tblCarPark" />
+      <Association Name="tblCar_tblHistory" Member="tblHistories" ThisKey="carID" OtherKey="carID" Type="tblHistory" />
+      <Association Name="tblUser_tblCar" Member="tblUser" ThisKey="userID" OtherKey="userID" Type="tblUser" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblHistorys" Member="tblHistories">
+    <Type Name="tblHistory">
+      <Column Name="historyID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="carID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="timeIn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="timeOut" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="position" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="money" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="keyCode" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="userID" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="tblCar_tblHistory" Member="tblCar" ThisKey="carID" OtherKey="carID" Type="tblCar" IsForeignKey="true" />
+      <Association Name="tblUser_tblHistory" Member="tblUser" ThisKey="userID" OtherKey="userID" Type="tblUser" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblUsers" Member="tblUsers">
+    <Type Name="tblUser">
+      <Column Name="userID" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="firstName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="lastName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="mail" Type="System.String" DbType="NVarChar(70)" CanBeNull="true" />
+      <Column Name="phoneNumber" Type="System.String" DbType="NVarChar(11)" CanBeNull="true" />
+      <Column Name="image" Type="System.Data.Linq.Binary" DbType="VarBinary(MAX)" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="tblUser_tblAccount" Member="tblAccount" ThisKey="userID" OtherKey="userID" Type="tblAccount" Cardinality="One" />
+      <Association Name="tblUser_tblCar" Member="tblCars" ThisKey="userID" OtherKey="userID" Type="tblCar" />
+      <Association Name="tblUser_tblHistory" Member="tblHistories" ThisKey="userID" OtherKey="userID" Type="tblHistory" />
+    </Type>
+  </Table>
+</Database>
